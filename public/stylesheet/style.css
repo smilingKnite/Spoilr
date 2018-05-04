@@ -1,0 +1,114 @@
+body {
+    background: linear-gradient(to bottom left, white, rgb(158, 83, 243));
+    background-repeat: none;
+}
+header {
+    border: 2px solid black;
+    text-align: center;
+    width: 500px;
+    background: linear-gradient(to bottom right, white, green);
+    margin: auto;
+}
+#image {
+    height: 350px;
+    display: inline-block;
+    margin: 10px auto;
+    padding: 5px;
+    vertical-align: top;
+    border: 2px dotted black;
+
+}
+#image:hover{
+    z-index: 1;
+    zoom: 1.25;
+    transition-duration: 2s;
+}
+.chatroom {
+    display: inline-block;
+    border: 2px solid black;
+    vertical-align: top;
+    padding: 5px;
+    margin: 10px 10px 10px 175px;
+    width: 400px;
+    height: 350px;
+}
+#content {
+    text-align: center;
+    border: 1px dashed black;
+    margin: 2px;
+    height: 280px;
+    overflow: scroll;
+}
+#main {
+    border: 2px solid black;
+    background: linear-gradient(to bottom right, white, green);
+}
+#main h1 {
+    text-decoration: underline;
+}
+ul {
+    width: 250px;
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+}
+#link:hover {
+    color: red;
+}
+#link {
+    color: black;
+}
+button {
+    padding: 5px;
+    font-size: 25px;
+    margin: auto;
+    border: 2px solid black;
+    margin: 10px;
+    background: linear-gradient(to bottom right, rgb(194, 194, 194), green);
+}
+/* width */
+
+#message {
+    border: 2px solid black;
+    margin: 5px;
+    vertical-align: bottom;
+    
+}
+#text {
+    margin: 2px;
+    width: 250px;
+}
+#message button {
+    padding: 2px;
+    font-size: 20px;
+    margin: auto;
+    border: 2px solid black;
+    margin: 5px;
+    background: linear-gradient(to bottom right, rgb(194, 194, 194), green);
+}
+::-webkit-scrollbar {
+    width: 5;
+    background-color: green;
+
+}
+#bold {
+    font-weight: bold;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: rgba(12, 189, 5, 0.658);
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(207, 207, 207);
+}
